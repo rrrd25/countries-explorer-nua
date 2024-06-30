@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon/Exit_Gray</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/Exit_Gray" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <line x1="19" y1="19" x2="1" y2="1" id="Path-2" stroke="#7C7C7C" stroke-width="6"></line>
+        <line x1="19" y1="19" x2="1" y2="1" id="Path-2" stroke="#7C7C7C" stroke-width="6" transform="translate(10.000000, 10.000000) scale(-1, 1) translate(-10.000000, -10.000000) "></line>
+    </g>
+</svg>

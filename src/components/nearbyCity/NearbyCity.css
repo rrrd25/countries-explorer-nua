@@ -1,0 +1,52 @@
+.modal {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  padding: 20px;
+  max-width: 80%;
+  width: 50%;
+  border-radius: 14px;
+  background: var(--base-white-color);
+  box-shadow: 2px 2px 20px 1px;
+}
+
+.nearby-city-popup-text {
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--base-dark-blue-color);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4px;
+}
+
+.no-city-found {
+  font-size: 16px;
+  color: #aaa;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+}
+
+.close-icon {
+  width: 24px;
+  cursor: pointer;
+  float: right;
+}
+
+.nearby-city-data-main {
+  padding: 20px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 80%;
+  }
+}

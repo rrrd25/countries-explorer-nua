@@ -1,0 +1,45 @@
+.table-main-container {
+  margin: 0px 20px;
+}
+
+.table-main {
+  width: 100%;
+  background: var(--base-white-color);
+  border-radius: 8px;
+  border: 1px solid rgb(218, 218, 218);
+}
+.data-table-responsive {
+    overflow-x: auto;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: var(--base-green-color);
+}
+
+.table-body-row:hover {
+  background-color: #e9fde5;
+  cursor: pointer;
+}
+
+.table-head {
+  border-radius: 8px 8px 0px 0px;
+}
+
+@media (max-width: 650px) {
+  .data-table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .table-main th,
+  .table-main td {
+    white-space: nowrap;
+  }
+}
